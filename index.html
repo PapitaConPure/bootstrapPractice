@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container-fluid" id="cover">
-        <div class="cover-text-background">
+        <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6 cover-text-background">
             <h2>A bit of a Subtitle</h2>
             <h1>Some Original Title</h1>
         </div>
@@ -58,9 +58,11 @@
         </div>
     </div>
     
+    <!--Contenido principal de la página-->
     <div class="container-xl">
         <div class="row" id="main-row">
-            <div class="col-2" id="menu">
+            <!--Menú-->
+            <div class="col-4" id="menu">
                 <h1>Menú</h1>
                 <ul>
                     <li>Item</li>
@@ -69,28 +71,97 @@
                     <li>Item</li>
                 </ul>
             </div>
-            <div class="col-7" id="content">
+
+            <!--Artículo-->
+            <div class="col-8" id="article">
                 <h1>Título</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia sem sit amet neque tempor, ut blandit augue porttitor. Vestibulum ac tincidunt sapien, id consectetur nisi. Vivamus efficitur odio id pulvinar feugiat. Donec tincidunt enim massa, vitae semper libero eleifend ut. Ut ac massa nec risus aliquet ultricies accumsan non elit. Aenean eget arcu felis. Fusce mi magna, placerat nec aliquet eget, gravida in arcu. Suspendisse suscipit turpis sit amet tincidunt accumsan. Etiam ac felis nec magna tincidunt vulputate vitae quis libero. Nunc luctus elit nec tellus placerat tempor quis sed risus. Etiam quis imperdiet neque, mollis feugiat mauris.
-                </p>
-                <p>
+                
+                <div class="section row">
+                    <div class="col">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia sem sit amet neque tempor, ut blandit augue porttitor. Vestibulum ac tincidunt sapien, id consectetur nisi. Vivamus efficitur odio id pulvinar feugiat. Donec tincidunt enim massa, vitae semper libero eleifend ut. Ut ac massa nec risus aliquet ultricies accumsan non elit. Aenean eget arcu felis. Fusce mi magna, placerat nec aliquet eget, gravida in arcu. Suspendisse suscipit turpis sit amet tincidunt accumsan. Etiam ac felis nec magna tincidunt vulputate vitae quis libero. Nunc luctus elit nec tellus placerat tempor quis sed risus. Etiam quis imperdiet neque, mollis feugiat mauris.
+                        </p>
+                    </div>
+                    <div class="col-md-12 col-lg-4 col-xl-5">
+                        <img src="cafe.jpg" class="img-thumbnail" alt="Café y Churros">
+                    </div>
+                </div>
+
+                <p class="section">
                     Etiam porta dignissim luctus. Nam vulputate sodales vulputate. In hendrerit justo at vehicula lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non feugiat magna, eget molestie lorem. Sed sit amet dolor dapibus, ultricies ipsum vitae, volutpat ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut augue orci, fringilla a interdum at, interdum at nisi. Nulla blandit non sapien in rhoncus. Nulla facilisi. Suspendisse potenti. Nullam mattis et nulla non convallis. Mauris velit lacus, fringilla sed lectus in, consequat tincidunt erat.
                 </p>
+
                 <h2>Subtítulo</h2>
-                <p>
+
+                <p class="section">
                     Quisque vestibulum varius magna, at varius eros faucibus at. Aenean hendrerit ac nibh et eleifend. Quisque ultrices feugiat purus, nec condimentum nisl convallis eu. Vestibulum congue, sapien non pulvinar iaculis, neque felis maximus urna, a fermentum nisi augue quis mi. In neque mauris, viverra at pellentesque non, tincidunt id metus. Duis non est non nulla cursus luctus. Ut sollicitudin, sapien non suscipit vehicula, dolor quam placerat nisl, quis porta tortor nibh id ipsum. Sed vel porta mauris. Vestibulum at neque ex. Nullam at aliquet sapien. Aenean dapibus lorem lacus. Vivamus urna nulla, vulputate vel consequat sed, condimentum ut diam. Pellentesque bibendum, mi consequat elementum pulvinar, diam diam tristique augue, ut gravida tellus lacus ac lacus. Vivamus bibendum sagittis risus et lacinia. Pellentesque dapibus bibendum neque ac lobortis. Duis id ornare neque.
                 </p>
-                <p>
-                    Vestibulum est velit, porta eu dictum at, tincidunt non nunc. Cras eu magna placerat, pellentesque tortor id, accumsan elit. Vivamus pretium, nisl eu tincidunt dictum, justo turpis efficitur est, id eleifend ligula metus id purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nisl leo, mollis id elementum ac, tempus nec ex. Phasellus ultrices vel velit auctor ultricies. Cras non bibendum sapien, sit amet luctus leo. Aenean nec ultricies urna, ut dapibus sem.
-                </p>
-                <p>
+
+                <table class="section table table-dark table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="bg-primary">Nivel</th>
+                            <th scope="col" class="bg-primary">Personaje</th>
+                            <th scope="col" class="bg-primary">Especie</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Seiran</td>
+                            <td>Coneja Lunar</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Ringo</td>
+                            <td>Coneja Lunar</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Doremy Sweet</td>
+                            <td>Baku</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Sagume Kishin</td>
+                            <td>Diosa/Lunarian</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Clownpiece</td>
+                            <td>Hada</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>Junko</td>
+                            <td>Espíritu Divino</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">EX</th>
+                            <td>Hecatia Lapislazuli</td>
+                            <td>Diosa del Infierno</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                
+                <div class="section row">
+                    <div class="col-md-12 col-lg-4 col-xl-5">
+                        <figure class="figure">
+                            <img src="risko.jpg" class="figure-img img-fluid rounded" alt="...">
+                            <figcaption class="figure-caption">Un jueguito que me gusta</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <p class="section">
+                            Vestibulum est velit, porta eu dictum at, tincidunt non nunc. Cras eu magna placerat, pellentesque tortor id, accumsan elit. Vivamus pretium, nisl eu tincidunt dictum, justo turpis efficitur est, id eleifend ligula metus id purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nisl leo, mollis id elementum ac, tempus nec ex. Phasellus ultrices vel velit auctor ultricies. Cras non bibendum sapien, sit amet luctus leo. Aenean nec ultricies urna, ut dapibus sem.
+                        </p>
+                    </div>
+                </div>
+
+                <p class="section">
                     Maecenas laoreet, tortor id lobortis varius, nisi nulla dictum dolor, et gravida neque sem a neque. Donec ac est eget lorem tempus lobortis et hendrerit velit. Ut sit amet posuere sem. Quisque imperdiet mi quis mauris lobortis pharetra. Nullam a semper ante. Nunc a convallis enim, a luctus augue. In consequat placerat purus sed laoreet. In vehicula commodo neque eget posuere. Praesent mattis, dolor a hendrerit pretium, nisl libero tempus erat, id sodales elit elit sed ipsum. Praesent tempus odio fringilla ante ultricies convallis. Sed malesuada porttitor purus, nec molestie sapien elementum et. Vestibulum ac mi vitae sapien ultrices lacinia.
                 </p>
-            </div>
-            <div class="col">
-                <h1>Similar</h1>
-                <img src="cafe.jpg" class= "img-thumbnail" alt="Café y Churros">
             </div>
         </div>
     </div>
