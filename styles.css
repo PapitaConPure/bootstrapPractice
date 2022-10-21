@@ -3,7 +3,19 @@ body {
     color: #e5e5e5;
 }
 
-#cover {
+h1 {
+    font-family: 'Century Gothic';
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Century Gothic';
+    font-size: 36px;
+}
+
+header {
     background-color: #555;
     background-blend-mode: overlay;
     background-image: url(sagum.png);
@@ -16,13 +28,14 @@ body {
     padding-bottom: 0.5ex;
 }
 
-#cover h1 {
-    font-size: 64px;
+header h1 {
     font-family: 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif sans-serif;
+    font-size: 64px;
+    text-align: left;
     margin-top: 0px;
 }
 
-#cover h2 {
+header h2 {
     font-size: 32px;
     font-family: 'Lato Light', Arial, sans-serif;
     font-variant-caps: all-small-caps;
@@ -31,7 +44,7 @@ body {
     margin-left: 3px;
 }
 
-.cover-text-background {
+.header-text-background {
     background-color: #a06;
     mix-blend-mode: color-dodge;
     border-radius: 4px;
@@ -54,28 +67,16 @@ body {
     padding: 5px 20px;
 }
 
-#main-row h1 {
-    font-family: 'Century Gothic';
-    font-size: 42px;
-    font-weight: bold;
-    text-align: center;
-}
-
-#main-row h2 {
-    font-family: 'Century Gothic';
-    font-size: 36px;
-}
-
-#menu {
+nav {
     background-color: #202020;
     border-radius: 5px;
 }
 
-#menu ul {
+nav ul {
     padding: 15px;
 }
 
-#menu li {
+nav li {
     color: #a06;
     font-size: 24px;
     font-family: 'Lato Light';
@@ -83,16 +84,27 @@ body {
     list-style-type: square;
 }
 
-#menu h1 {
+nav h1 {
     text-align: left;
 }
 
-#article .section {
+section article {
     margin-bottom: 4ex;
 }
 
-#article p {
+section p {
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-indent: 2em;
+}
+
+footer {
+    background-color: #0a0a0a;
+}
+
+footer h1 {
+    font-family: 'Century Gothic';
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
 }
