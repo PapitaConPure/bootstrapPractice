@@ -88,18 +88,22 @@ nav h1 {
     text-align: left;
 }
 
-section article {
-    margin-bottom: 4ex;
-}
-
 section p {
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-indent: 2em;
 }
 
+article {
+    margin-bottom: 4ex;
+}
+
+article thead th {
+    background-color: #a06 !important;
+}
+
 footer {
-    background-color: #0a0a0a;
+    background-color: #a06;
 }
 
 footer h1 {
